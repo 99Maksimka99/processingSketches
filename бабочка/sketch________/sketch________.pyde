@@ -1,0 +1,15 @@
+def setup():
+    size(900,800)
+    background(233,0,70)
+    strokeWeight(1)
+    fill(200,0,0)
+    frameRate(1)
+def draw():
+    background(0)
+    ellipse(400,200,30,30)
+    translate(30,0)
+    ellipse(400,200,30,30)
+    translate(0,30)
+    ellipse(400,200,30,30)
+    translate(-30,0)
+    ellipse(400,200,30,30)
